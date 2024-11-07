@@ -1,8 +1,22 @@
-// Example component
-export default function App() {
+import { Routes, Route } from "react-router-dom"
+import Home from "./Components/HomePage/Home"
+import Cont from "./Components/Contact/Cont"
+import Navbar from "./Components/Nav/Navbar"
+import Footer from "./Components/Footer/Footer"
+
+
+function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-500">Hello, Ecoomerce Jewellery Project</h1>
+    <div className="App">
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        
+        <Route path="contact" element={ <Cont/> } />
+      </Routes>
+      <Footer/>
     </div>
-  );
+  )
 }
+
+export default App
