@@ -13,7 +13,7 @@ const Footer = () => {
               alt="Hirapanna Jewellers"
               className="w-44 h-12 mx-auto md:mx-0"
             />
-            <p className="mb-6 text-2xl font-bold text-gray-500">
+            <p className="mb-20 text-2xl font-bold text-gray-500">
               Lorem Ipsum is simply dummy <br /> text of the printing.
             </p>
           </div>
