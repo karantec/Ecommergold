@@ -13,74 +13,78 @@ const Footer = () => {
               alt="Hirapanna Jewellers"
               className="w-44 h-12 mx-auto md:mx-0"
             />
-            <p className="mt-4 text-sm font-bold text-gray-500">
+            <p className="mb-6 text-2xl font-bold text-gray-500">
               Lorem Ipsum is simply dummy <br /> text of the printing.
             </p>
           </div>
 
-          <div className="w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left flex flex-row  justify-between">
-            <div className="w-1/2 md:w-1/4 px-4">
-              <h2 className="title-font font-medium text-[#000000] text-sm mb-3">
-                Contact Us
+          <div className="w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left flex flex-wrap justify-between">
+            <div className="w-full md:w-1/4 px-4">
+              <h2 className="title-font text-md  uppercase font-bold text-[#000000] text-sm mb-3">
+                COSTUME 
               </h2>
-              <nav className="list-none">
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">Our Blogs</a>
+              <nav className="list-none mb-10">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">Our Blogs</a>
                 </li>
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">
                     Track Your Order
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">
                     Shipping & Return
                   </a>
                 </li>
               </nav>
             </div>
 
-            <div className="w-1/2 md:w-1/4 px-4">
-              <h2 className="title-font font-medium text-[#000000] text-sm mb-3">
+            <div className="w-full md:w-1/4 px-4">
+              <h2 className="title-font font-bold text-[#000000] text-sm mb-3">
                 About Us
               </h2>
-              <nav className="list-none">
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">FAQ</a>
+              <nav className="list-none mb-10">
+              <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">FAQ</a>
                 </li>
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">
                     Our Products
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">
                     Terms & Conditions
                   </a>
                 </li>
-                <li className="mb-2">
-                  <a className="text-gray-600 hover:text-gray-800">
+                <li className="mb-3">
+                  <a className="text-gray-600 text-center hover:text-gray-800">
                     Privacy Policy
                   </a>
                 </li>
               </nav>
             </div>
 
-            <div className="w-1/2 md:w-1/4 px-4">
+            <div className="w-full md:w-1/4 px-4">
               <h2 className="title-font font-medium text-[#000000] text-sm mb-3">
-                Earning
+                CATALOG
               </h2>
-              <nav className="list-none">
-                <li className="mb-2">
+              <nav className="list-none mb-10">
+              <li className="mb-3">
+                  <a className="text-gray-600 hover:text-gray-800">Earnings</a>
+                </li>
+                
+                <li className="mb-3">
                   <a className="text-gray-600 hover:text-gray-800">Pendent</a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-3">
                   <a className="text-gray-600 hover:text-gray-800">Rings</a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-3">
                   <a className="text-gray-600 hover:text-gray-800">Chain</a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-3">
                   <a className="text-gray-600 hover:text-gray-800">Bangals</a>
                 </li>
               </nav>
@@ -93,7 +97,7 @@ const Footer = () => {
             <p className="text-gray-500 text-sm text-center md:text-left">
               © 2023 Hirapanna Jewellery Company Limited. All rights reserved.
             </p>
-            <div className="flex items-center justify-center space-x-4 flex-wrap">
+            <div className="flex items-center justify-center space-x-4 mt-4 ml-8 md:mt-0">
               <img
                 src="stripe.png"
                 alt="Stripe"
