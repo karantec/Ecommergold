@@ -25,8 +25,9 @@ const Navbar = () => {
               className="border border-[#C1C1C1] rounded-lg bg-[#E9F1ED] pl-10 pr-4 py-2 w-full focus:outline-none"
             />
           </div>
+         
         </div>
-
+        
         {/* Navigation bar for desktop */}
         <div className="hidden md:flex items-center justify-between">
           {/* Centered Navigation Links */}
@@ -70,7 +71,7 @@ const Navbar = () => {
           <div className="flex items-center w-full">
             {/* Logo */}
             <img
-              src="logo.png"  // Replace with actual logo URL
+              src="preview.png"  // Replace with actual logo URL
               alt="Logo"
               className="h-12 mr-2 "
             />

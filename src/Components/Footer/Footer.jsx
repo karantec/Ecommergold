@@ -9,16 +9,16 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <img
-              src="logo.png"
+              src="preview.png"
               alt="Hirapanna Jewellers"
-              className="w-44 h-12 mx-auto md:mx-0"
+              className="w-44 h-18 mx-auto md:mx-0"
             />
             <p className="mb-20 text-2xl font-bold text-gray-500">
               Lorem Ipsum is simply dummy <br /> text of the printing.
             </p>
           </div>
 
-          <div className="w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left flex flex-wrap justify-between">
+          <div className="w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left flex  flex-row  justify-between">
             <div className="w-full md:w-1/4 px-4">
               <h2 className="title-font text-md  uppercase font-bold text-[#000000] text-sm mb-3">
                 COSTUME 
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
 
             <div className="w-full md:w-1/4 px-4">
-              <h2 className="title-font font-medium text-[#000000] text-sm mb-3">
+              <h2 className="title-font font-bold text-[#000000] text-sm mb-3">
                 CATALOG
               </h2>
               <nav className="list-none mb-10">
