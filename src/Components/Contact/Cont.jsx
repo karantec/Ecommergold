@@ -2,13 +2,13 @@ import React from "react";
 
 function ContactUs() {
   return (
-    <div className="flex  min-h-screen bg-white p-6 space-x-10">
+    <div className="flex flex-col-reverse md:flex-row min-h-screen bg-white p-6 space-x-10">
       {/* Left Section - Image */}
-      <div className="ml-20 mt-4" style={{ height: "700px", width: "550px" }}>
+      <div className=" ml-20  mt-4 order-last md:order-none  " style={{ height: "600px", width: "500px" }}>
         <img
           src="contactgold.png"
           alt="Contact Background"
-          className="h-full w-full object-cover rounded-lg shadow-lg"
+          className="h-full w-full  object-cover rounded-lg shadow-lg"
         />
       </div>
 
