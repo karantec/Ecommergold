@@ -55,28 +55,28 @@ function ContactUs() {
   </div>
 
   <div className="mb-6">
-    <label className="block text-sm font-medium text-gray-700">Select Subject?</label>
-    <div className="flex flex-wrap space-x-4 mt-2">
-      {/* Adjusted for spacing on smaller screens */}
-      <label className="flex items-center mb-2">
-        <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
-        <span className="ml-1">General Inquiry</span>
-      </label>
-      <label className="flex items-center mb-2">
-        <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
-        <span className="ml-1">General Inquiry</span>
-      </label>
-      <label className="flex items-center mb-2">
-        <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
-        <span className="ml-1">General Inquiry</span>
-      </label>
-      <label className="flex items-center mb-2">
-        <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
-        <span className="ml-1">General Inquiry</span>
-      </label>
-      {/* Add other radio buttons here, each with the same structure */}
-    </div>
+  <label className="block text-sm font-medium text-gray-700">Select Subject?</label>
+  <div className="grid grid-cols-2 gap-4 mt-2">
+    {/* Each radio button option */}
+    <label className="flex items-center mb-2">
+      <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
+      <span className="ml-1">General Inquiry</span>
+    </label>
+    <label className="flex items-center mb-2">
+      <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
+      <span className="ml-1">General Inquiry</span>
+    </label>
+    <label className="flex items-center mb-2">
+      <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
+      <span className="ml-1">General Inquiry</span>
+    </label>
+    <label className="flex items-center mb-2">
+      <input type="radio" name="subject" className="text-orange-500 focus:ring-orange-500" />
+      <span className="ml-1">General Inquiry</span>
+    </label>
   </div>
+</div>
+
 
   <div className="mb-8">
     <label className="block text-sm font-medium text-gray-700">Message</label>
